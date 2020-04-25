@@ -20,10 +20,10 @@ Remove the --private if the new repo is not a private (check out the gitclick do
 
 ## Example:
 (in cmd/powershell)
-    gitcreate testproject
-    (creates a repo named testproject)
-    (a remote git repo is created in the configurated user)
-    (a local .git is inititialised)
-    (creates readme, adds readme and commits the files)
-    (adds the remote origin and pushes the files to the origin master)
-    (opens vscode with "code .")
+### gitcreate testproject
+(creates a repo named testproject)
+(a remote git repo is created in the configurated user)
+(a local .git is inititialised)
+(creates readme, adds readme and commits the files)
+(adds the remote origin and pushes the files to the origin master)
+(opens vscode with "code .")
