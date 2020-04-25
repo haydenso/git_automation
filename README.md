@@ -13,17 +13,16 @@ It automatically creates a local github repo and a remote github repo on the con
 
 Remove the --private if the new repo is not a private (check out the gitclick documentation)
 
-## Setup:
-(make sure you have git and npm package manager installed)
-(npm) npm install gitclick -g 
-(npm) gitclick add (to add user profile configurations -- get access token from github account)
+## Setup:(make sure you have git and npm package manager installed)
+npm install gitclick -g 
+gitclick add (to add user profile configurations -- get access token from github account)
 
 ## Example:
 (in cmd/powershell)
 ### gitcreate testproject
-(creates a repo named testproject)
-(a remote git repo is created in the configurated user)
-(a local .git is inititialised)
-(creates readme, adds readme and commits the files)
-(adds the remote origin and pushes the files to the origin master)
-(opens vscode with "code .")
+- creates a repo named testproject
+- a remote git repo is created in the configurated user
+- a local .git is inititialised
+- creates readme, adds readme and commits the files
+- adds the remote origin and pushes the files to the origin master
+- opens vscode with "code ."
